@@ -4,7 +4,7 @@ import joblib
 import os
 
 # Load the model
-model_path = '/Users/muktha/ML/project_workout'  # Ensure model file name is correct
+model_path = 'project_workout'  # Ensure model file name is correct
 if os.path.exists(model_path):
     model = joblib.load(model_path)
 else:
@@ -14,10 +14,11 @@ else:
 # App title
 st.title("Calorie Coach: Your Personal Workout Analyzer")
 st.write("Helping You Track, Analyze, and Achieve Your Fitness Goals")
-
+'''
 from PIL import Image
 img = Image.open('/Users/muktha/Downloads/WhatsApp Image 2025-01-08 at 12.51.55 PM.jpeg')
 st.image(img,width = 800)
+'''
 
 # Input grid
 col1, col2, col3 = st.columns(3)
