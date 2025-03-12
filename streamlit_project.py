@@ -14,11 +14,11 @@ else:
 # App title
 st.title("Calorie Coach: Your Personal Workout Analyzer")
 st.write("Helping You Track, Analyze, and Achieve Your Fitness Goals")
-'''
-from PIL import Image
-img = Image.open('/Users/muktha/Downloads/WhatsApp Image 2025-01-08 at 12.51.55 PM.jpeg')
-st.image(img,width = 800)
-'''
+
+#from PIL import Image
+#img = Image.open('/Users/muktha/Downloads/WhatsApp Image 2025-01-08 at 12.51.55 PM.jpeg')
+#st.image(img,width = 800)
+
 
 # Input grid
 col1, col2, col3 = st.columns(3)
